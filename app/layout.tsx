@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
 import Fb_logo from "../images/facebook.png";
+import Github_logo from "../images/GitHub-logo.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,7 @@ export default function RootLayout({
         <main className="w-full h-screen  flex flex-col justify-between">
           <div className="py-4 bg-blue-200">
             <header className=" w-full  flex  items-center justify-between max-w-[1200px] m-auto">
-              <h1 className="text-3xl cursor-pointer text-black">tosCode</h1>
+              <h1 className="text-4xl cursor-pointer text-black">tosCode</h1>
               <div className="flex gap-8 text-2xl ">
                 <Link
                   href="/"
@@ -72,10 +73,15 @@ export default function RootLayout({
                   <Link href="#">Get in touch</Link>
                   <Link href="#">Community</Link>
                 </div>
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center gap-2">
                   <h2 className="text-2xl font-bold">Social</h2>
 
                   <Image src={Fb_logo} alt="fb logo" className="w-8 " />
+                  <Image
+                    src={Github_logo}
+                    alt="github logo"
+                    className="w-16 "
+                  />
                 </div>
               </article>
             </footer>
