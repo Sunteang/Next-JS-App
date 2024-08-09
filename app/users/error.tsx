@@ -8,7 +8,9 @@ export default function Error({ error }: { error: Error }) {
   }, [error]);
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className=" text-red-500 text-2xl">Error using fetching data.</div>
+      <div className=" text-red-500 text-2xl">
+        Error using fetching data. Please check the link.
+      </div>
     </div>
   );
 }
