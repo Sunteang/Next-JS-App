@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main className="w-full h-screen  flex flex-col justify-between">
-          <div className="py-4 bg-blue-200">
+          <div className="py-4 mb-6 bg-blue-200">
             <header className=" w-full  flex  items-center justify-between max-w-[1400px] m-auto">
               <h1 className="text-4xl cursor-pointer text-black">tosCode</h1>
               <div className="flex gap-8 text-2xl ">
@@ -60,7 +60,7 @@ export default function RootLayout({
             </header>
           </div>
           {children}
-          <div className="py-4 bg-blue-300 pb-[5rem]">
+          <div className="mt-6 py-4 bg-blue-300 pb-[5rem]">
             <footer className="w-full  flex  items-end justify-between max-w-[1200px] m-auto p-2 border-b-2 border-b-gray-600">
               <article className="w-full  flex  items-start justify-between max-w-[1200px] m-auto">
                 <div className="text-black w-full flex flex-col ">

@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Kidd from "../../images/kidd.webp";
 
+import Button from "../components/atoms/buttons/button02";
+
 interface User {
   id: number;
   name: string;
@@ -18,8 +20,8 @@ async function UsersPage() {
     throw new Error("Network response was Bad");
   }
   return (
-    <div className="max-w-[1400px] m-auto flex flex-col justify-center items-center w-full h-screen bg-gray-100">
-      <h1 className=" text-4xl font-bold my-8 text-gray-900 p-2 border-b-2 border-b-gray-600">
+    <div className="max-w-[1400px] m-auto  flex flex-col justify-center items-center w-full h-screen bg-gray-100">
+      <h1 className=" text-4xl font-bold mt-14 my-8 text-gray-900 p-2 border-b-2 border-b-gray-600">
         Users Information
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-4 mb-8">
@@ -38,6 +40,7 @@ async function UsersPage() {
           </div>
         ))}
       </div>
+      <Button className="mb-16">Back Home</Button>
     </div>
   );
 }
