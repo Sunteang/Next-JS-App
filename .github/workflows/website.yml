@@ -31,9 +31,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: |
-          yarn install
-          sst build
+        run: yarn install
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
