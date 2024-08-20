@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -62,7 +62,10 @@
     "eslint-plugin-storybook": "^0.8.0",
     "msw": "^2.3.5",
     "msw-storybook-addon": "^2.0.3",
-    "storybook": "^8.2.8"
+    "storybook": "^8.2.8",
+    "sst": "^3.0.46",
+    "aws-cdk-lib": "2.142.1",
+    "constructs": "10.3.0"
   },
   "msw": {
     "workerDirectory": [
