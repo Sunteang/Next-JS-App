@@ -4,6 +4,7 @@ const config: StorybookConfig = {
   stories: [
     "../app/components/atoms/**/*.stories.tsx",
     "../app/components/organisms/**/*.stories.tsx", //new config
+    "../app/components/test/**/*.stories.tsx", //new config
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
   addons: [

@@ -168,7 +168,6 @@
 
 // export default RegistrationForm;
 
-// register-form.tsx
 import React, { useState } from "react";
 
 interface RegistrationFormProps {
@@ -226,6 +225,7 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({ onSubmit }) => {
       // Simulate API request
       await new Promise((resolve) => {
         setTimeout(() => {
+          // Simulate successful registration
           onSubmit(email, password);
           setSuccess(true);
           resolve(true);

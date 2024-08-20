@@ -4,7 +4,7 @@ import {
   faFacebookSquare,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-// import GotoPosts from "./(handleRouter)/gotoPost";
+
 import Hero_dev from "../images/developer-hero.jpg";
 
 export default function Home() {
