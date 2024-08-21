@@ -8,10 +8,7 @@ interface Blog {
 
 const fetchData = async (id: string): Promise<Blog> => {
   const response = await fetch(
-    `https://jsonplaceholder.typicode.com/photos/${id}`,
-    {
-      cache: "no-store",
-    }
+    `https://jsonplaceholder.typicode.com/photos/${id}`
   );
 
   if (!response.ok) {

@@ -9,10 +9,7 @@ interface Post {
 const fetchData = async (page: number, limit: number): Promise<Post[]> => {
   try {
     const response = await fetch(
-      `https://jsonplaceholder.typicode.com/photos?_page=${page}&_limit=${limit}`,
-      {
-        cache: "no-store",
-      }
+      `https://jsonplaceholder.typicode.com/photos?_page=${page}&_limit=${limit}`
     );
     if (!response.ok) {
       throw new Error("Network response was not okay");

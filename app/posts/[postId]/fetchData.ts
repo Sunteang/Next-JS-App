@@ -8,10 +8,7 @@ interface Post {
 
 const fetchData = async (id: string): Promise<Post> => {
   const response = await fetch(
-    `https://jsonplaceholder.typicode.com/photos/${id}`, // Corrected URL with slash
-    {
-      cache: "no-store",
-    }
+    `https://jsonplaceholder.typicode.com/photos/${id}` // Corrected URL with slash
   );
 
   if (!response.ok) {
