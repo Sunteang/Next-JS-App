@@ -17,11 +17,11 @@ export default {
         options: ["primary", "secondary"],
       },
     },
-    disabled: {
-      control: {
-        type: "boolean",
-      },
-    },
+    // disabled: {
+    //   control: {
+    //     type: "boolean",
+    //   },
+    // },
     onClick: {
       action: "clicked",
     },

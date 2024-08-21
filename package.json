@@ -9,8 +9,8 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test-storybook": "test-storybook",
-    "test": "jest"
+    "test": "jest",
+    "test-storybook": "test-storybook --coverage"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",

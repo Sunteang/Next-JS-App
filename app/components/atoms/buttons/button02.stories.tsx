@@ -34,9 +34,9 @@ export const Text: Story = {
   },
 };
 
-export const Disable: Story = {
-  args: {
-    children: "Button Disable",
-    disabled: true,
-  },
-};
+// export const Disable: Story = {
+//   args: {
+//     children: "Button Disable",
+//     disabled: true,
+//   },
+// };
