@@ -2,10 +2,9 @@ import type { StorybookConfig } from "@storybook/nextjs";
 
 const config: StorybookConfig = {
   stories: [
-    "../app/components/atoms/**/*.stories.tsx",
-    "../app/components/organisms/**/*.stories.tsx", //new config
-    "../app/components/test/**/*.stories.tsx", //new config
+    // "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
+    "../app/components/**/**/*.stories.tsx",
   ],
   addons: [
     "@storybook/addon-onboarding",
@@ -13,7 +12,6 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "@storybook/addon-actions",
   ],
   framework: {
     name: "@storybook/nextjs",
@@ -21,5 +19,4 @@ const config: StorybookConfig = {
   },
   staticDirs: ["../public"],
 };
-
 export default config;

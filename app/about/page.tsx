@@ -10,7 +10,7 @@ function About() {
           At tosCode, we are passionate about turning ideas into reality through
           code. Our mission is to empower businesses and individuals by
           providing top-notch software solutions that drive innovation and
-          efficiency. Whether you're a startup looking to build your first app
+          efficiency. Whether you are a startup looking to build your first app
           or an established company seeking to enhance your digital presence,
           tosCode has the expertise to bring your vision to life. With a focus
           on cutting-edge technologies and user-centric design, we deliver

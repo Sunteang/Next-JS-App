@@ -4,7 +4,7 @@ import { fn } from "@storybook/test";
 
 const meta: Meta<typeof Button> = {
   tags: ["autodoc"],
-  title: "Testing/Atoms/Button",
+  title: "Components/Atoms/Button",
   component: Button,
   args: {
     onClick: fn(),

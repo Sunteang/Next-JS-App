@@ -5,7 +5,7 @@ import Button from "./button01";
 
 export default {
   // tags: ["autodocs"],
-  title: "Components/atoms/Button",
+  title: "Components/Atoms/Button",
   component: Button,
   parameters: {
     layout: "centered",
