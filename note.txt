@@ -21,6 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
